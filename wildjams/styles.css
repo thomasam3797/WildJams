@@ -1,0 +1,246 @@
+body{
+    background-color:#e8dcc4;
+    font-family:'Oswald', sans-serif;
+    background-color: #c88c88;
+    margin:0;
+
+}
+h1{
+    font-family:'Playfair display', sans-serif;
+    font-weight:50px;
+    font-size:30px;
+    margin:0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+nav{
+    text-align: center;
+    background-color:#e8dcc4;
+}
+.home img{
+    max-height:15.5rem;
+    max-width:100%;
+    border-radius:50px;
+}
+.about img{
+    max-height:23rem;
+    max-width:100%;
+    border-radius:50px;
+    
+}
+.about h2{
+    border: 2px solid #7F805A;
+    border-radius: 50px;
+    padding: 15px; 
+    background-color: #7F805A;
+    width:300px;
+    margin-left:3rem;
+    margin-top:1rem;
+}
+.about{
+    text-align:center;
+}
+.button{
+    border:2px solid #7F805A;
+    padding:25px;
+    font-size: x-large;
+    border-radius:50px;
+    text-align: center;
+    color:#000000;
+    width:200px;
+    display:block;
+    margin:1rem 1.75rem;
+}
+.button:hover{
+    background-color: #7F805A;
+    color:#000000;
+}
+h4{
+    font-family:'Oswald', sans-serif;
+    display:block;
+    margin:auto 7.75rem;
+}
+.about{
+    background-color: #e8dcc4;
+}
+.logo{
+    height:50px;
+    margin: 0rem 1rem -1rem -2rem;
+}
+section{
+    padding:1rem;
+}
+.right{
+    right:0.5rem;
+}
+.arrow{
+    position:absolute;
+    font-size:3rem;
+    color:#7F805A;
+    text-shadow:2px 2px 2px rgba(black);
+    cursor:pointer;
+    z-index:1;
+    top:calc(50% - 1.5rem);
+}
+.gallery img{
+    max-width:25rem;
+}
+.shop{
+    background-color:#e8dcc4; 
+}
+.gallery{
+    position:relative;
+    width:calc(100% - 2rem);
+    max-width:23.5rem;
+    margin:auto;
+    height:34rem;
+}
+.gallery .slide{
+    display:flex;
+    position:absolute;
+    top:0;
+    left:0;
+    margin-top:1rem;
+}
+.gallery{
+    overflow:hidden;
+}
+.gallery .slide{
+    overflow:hidden;
+}
+.arrow{
+    position: absolute;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    cursor:pointer;
+    z-index:1;
+    top:calc(50% - 1.5rem);
+}
+.left{
+    left:.5rem;
+}
+.right{
+    right:.5rem;
+}
+.caterpage{
+    background-color: #e8dcc4;
+}
+.catering img{
+    height:500px;
+}
+.contactpage{
+    background-color:#c88c88;
+}
+.contactform h3{
+    font-family:'Playfair display', sans-serif;
+    text-align: left;
+}
+form{
+    max-width: 160px;
+    padding:0rem;
+}
+form input{
+    background-color: #e8dcc4;
+    border-radius:50px;
+}
+form textarea{
+    background-color: #e8dcc4;
+    border-radius:50px;
+}
+.locationetc{
+    padding:1rem;
+}
+.checkout{
+    height:20px;
+}
+.checkoutpage{
+    background-color: #e8dcc4;
+}
+.order{
+    background-color: #e8dcc4;
+}
+.items{
+    background-color: #c88c88;
+    border-radius:50px;
+}
+.white{
+    border-radius:50px;
+}
+.items h2{
+    position:absolute;
+    left:18rem;
+    top:14rem;
+}
+.items2{
+    background-color: #c88c88;
+    border-radius:50px;
+}
+.items2 h2{
+    position:absolute;
+    left:18rem;
+    top:33rem;
+}
+.submitorder{
+    background-color: #c88c88;
+}
+.charc img{
+    height:27rem;
+    margin-left:1.5rem;
+}
+@media (min-width:467px){
+    .home img{
+        margin-left:31rem;
+        position:absolute;
+        top:4rem;
+        max-width:41rem;
+        max-height:36rem;
+        min-width:0rem;
+        
+    }
+    h4{
+        text-align:left;
+        margin:auto -0.25rem;
+    }
+    .button{
+        margin:4rem 0rem 0rem -.5rem;
+        font-size:xx-large;
+
+    }
+    nav{
+        justify-content: space;
+    }
+    h1{
+        font-size:75px;
+    }
+    .about img{
+        max-height: 16rem;
+        max-width: 100%;
+        margin-left:2rem;
+    }
+    .catering{
+        display:grid;
+    }
+    .about h2{
+        margin-left:29rem;
+    }
+    .catering{
+        margin-right:30rem ;
+    }
+    .charc img{
+        height:27rem;
+        margin-left:53.5rem;
+        margin-top:-26rem;
+    }
+}
