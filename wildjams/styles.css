@@ -173,7 +173,6 @@ form textarea{
 }
 .items{
     background-color: #c88c88;
-    border-radius:50px;
 }
 .white{
     border-radius:50px;
@@ -185,7 +184,6 @@ form textarea{
 }
 .items2{
     background-color: #c88c88;
-    border-radius:50px;
 }
 .items2 h2{
     position:absolute;
@@ -242,5 +240,8 @@ form textarea{
         height:27rem;
         margin-left:53.5rem;
         margin-top:-26rem;
+    }
+    nav{
+        font-size: x-large;
     }
 }
