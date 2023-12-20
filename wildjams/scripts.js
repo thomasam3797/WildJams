@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function(){
 	var rotate = function(component, step){
 		// figure out width of container
 		var slide = component.querySelector('.slide');
-		let slideWidthVw = ((slide.offsetWidth / document.documentElement.clientWidth)-1) * 23.5;
+		let slideWidthVw = 23.5;
 		var left = Number(slide.style.left.replace('rem', ''));
 		left += step * 23.5;
 		if(left > 0) left = 0;
